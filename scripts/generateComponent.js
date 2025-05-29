@@ -27,7 +27,7 @@ async function checkIfExists(path) {
 // Templates
 // Component.tsx
 const tsxTemplate = `import { ${componentName}Props } from "./types/${componentName}.types";
-import "./${componentName}.css";
+import "./${componentName}.scss";
 
 const ${componentName}: React.FC<${componentName}Props> = () => {
   return <></>;
@@ -36,7 +36,7 @@ const ${componentName}: React.FC<${componentName}Props> = () => {
 export default ${componentName};
 `;
 
-// Component.css
+// Component.scss
 const cssTemplate = ``;
 
 // index.ts
@@ -58,7 +58,7 @@ const widgetIndexTemplate = ``;
 const structure = {
   "": [
     { fileName: `${componentName}.tsx`, template: tsxTemplate },
-    { fileName: `${componentName}.css`, template: cssTemplate },
+    { fileName: `${componentName}.scss`, template: cssTemplate },
     { fileName: "index.ts", template: indexTemplate },
   ],
   tests: [{ fileName: `${componentName}.test.tsx`, template: testTemplate }],

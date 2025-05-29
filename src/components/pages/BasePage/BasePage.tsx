@@ -1,6 +1,6 @@
 import { BaseContainer } from "@/components/containers/BaseContainer";
 import { BasePageProps } from "./types/BasePage.types";
-import "./BasePage.css";
+import "./BasePage.scss";
 
 const BasePage: React.FC<BasePageProps> = () => {
   return <BaseContainer />;

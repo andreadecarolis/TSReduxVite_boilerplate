@@ -1,7 +1,7 @@
 import { useButton } from "@/hooks/useButton";
 import { Button } from "@/components/common";
 import { BaseContainerProps } from "./types/BaseContainer.types";
-import "./BaseContainer.css";
+import "./BaseContainer.scss";
 
 const BaseContainer: React.FC<BaseContainerProps> = () => {
   const { handleButtonClick } = useButton();

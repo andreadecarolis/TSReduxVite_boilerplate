@@ -1,5 +1,5 @@
 import { ButtonProps } from "./types/Button.types";
-import "./Button.css";
+import "./Button.scss";
 
 const Button: React.FC<ButtonProps> = ({ buttonClass, onClick, children }) => {
   return (
